@@ -1,59 +1,48 @@
-body {
-	background-color: #232323;
+body{
+	background-color: #242424;
 	margin: 0;
 	font-family: "Montserrat", "Avenir";
 }
-
-.square {
+.square{
 	width: 30%;
-	background: purple;
+	background-color: purple;
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
 	border-radius: 15%;
-	transition: background 0.6s;
-	-webkit-transition: background 0.6s;
-	-moz-transition: background 0.6s;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
 }
-
-#container {
+#container{
 	margin: 20px auto;
-	max-width: 600px;
+	max-width:600px;
 }
-
-h1 {
-	text-align: center;
-	line-height: 1.1;
-	font-weight: normal;
-	color: white;
-	background: steelblue;
-	margin: 0;
-	text-transform: uppercase;
+h1{
+	background-color: steelblue;
 	padding: 20px 0;
+	line-height: 1.1;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
-#colorDisplay {
-	font-size: 200%;
-}
-
-#message {
-	display: inline-block;
-	width: 20%;
-}
-
-#stripe {
-	background: white;
+#stripe{
+	background-color: #f9fcfc;
 	height: 30px;
 	text-align: center;
-	color: black;
+	color: #000;
 }
-
-.selected {
-	color: white;
+.selected{
+	color: #fff;
 	background: steelblue;
 }
-
-button {
+#colorDisplay{
+	font-size: 200%;
+}
+button{
 	border: none;
 	background: none;
 	text-transform: uppercase;
@@ -67,8 +56,11 @@ button {
 	-moz-transition: all 0.3s;
 	outline: none;
 }
-
-button:hover {
-	color: white;
+button:hover{
+	color: #fff;
 	background: steelblue;
+}
+#message{
+	display: inline-block;
+	width: 20%;
 }
